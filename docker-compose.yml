@@ -4,7 +4,7 @@ services:
   frontend:
     build: ./frontend
     ports:
-      - "3000:80"  # Виправлено! Nginx за замовчуванням працює на 80 порту
+      - "3000:80"
     depends_on:
       - backend
 
